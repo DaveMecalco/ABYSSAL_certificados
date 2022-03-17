@@ -19,14 +19,12 @@
     <meta property="og:image:height" content="600">
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
-
-    <title>ABYSSAL::Acceso</title>
-
-    <link href="public/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="public/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="public/select2/css/select2.min.css" rel="stylesheet">
-
+    <link href="public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="public/lib/select2/css/select2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="public/css/bracket.css">
+    
+    <title>ABYSSAL::Acceso</title>
   </head>
 
   <body>
@@ -47,10 +45,10 @@
       </div><!-- login-wrapper -->
     </div><!-- d-flex -->
 
-    <script src="public/jquery/jquery.js"></script>
-    <script src="public/popper.js/popper.js"></script>
-    <script src="public/bootstrap/bootstrap.js"></script>
-    <script src="public/select2/js/select2.min.js"></script>
+    <script src="public/lib/jquery/jquery.js"></script>
+    <script src="public/lib/popper.js/popper.js"></script>
+    <script src="public/lib/bootstrap/bootstrap.js"></script>
+    <script src="public/lib/select2/js/select2.min.js"></script>
     <script>
       $(function(){
         'use strict';
