@@ -43,7 +43,35 @@
 
     <div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v">
       <form action="" method="post">
-      <div class="login-wrapper wd-300 wd-xs-400 pd-25 pd-xs-40 bg-white rounded shadow-base">
+        <div class="login-wrapper wd-300 wd-xs-400 pd-25 pd-xs-40 bg-white rounded shadow-base">
+
+        <?php
+          if(isset($_GET["m"])){
+            switch($_GET["m"]){
+              case "1";
+              ?>
+                <div class="alert alert-danger" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <strong class="d-block d-sm-inline-block-force">¡Error!</strong> Credenciales incorrectas.
+                </div>
+              <?php
+              break;
+              case "2";
+              ?>
+                <div class="alert alert-warning" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <strong class="d-block d-sm-inline-block-force">¡Error!</strong> Campos vacios.
+                </div>
+              <?php
+              break;
+            }
+          }
+        ?>
+
         <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span>ABYSSAL CONSULTACY<span class="tx-normal">]</span></div>
         <div class="tx-center mg-b-40">Sistema de Certificados y Diplomas</div>
         <div class="form-group">

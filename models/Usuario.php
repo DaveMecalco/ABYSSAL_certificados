@@ -23,6 +23,7 @@
                         $_SESSION["usu_nom"]=$resultado["usu_nom"];
                         $_SESSION["usu_app"]=$resultado["usu_app"];
                         $_SESSION["usu_correo"]=$resultado["usu_correo"];
+                        
                         /* Si todo esta correcto indexar en home */
                         header("Location:".Conectar::ruta()."view/UsuHome/");
                         exit();

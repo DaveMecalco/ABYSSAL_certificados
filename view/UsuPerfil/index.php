@@ -1,3 +1,7 @@
+<?php
+  require_once("../../config/conexion.php");
+  if(isset($_SESSION["usu_id"])){
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -33,3 +37,8 @@
     <?php require_once("../html/MainJs.php"); ?>
   </body>
 </html>
+<?php
+}else{
+  header("Location:".Conectar::ruta()."/view/404/index.php");
+}
+?>
