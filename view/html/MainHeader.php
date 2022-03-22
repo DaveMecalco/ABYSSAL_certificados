@@ -12,10 +12,13 @@
       </div><
           <div class="dropdown">
             <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
-              <span class="logged-name hidden-md-down"><?php echo $_SESSION["usu_nom"]?></span>
+              <span class="logged-name hidden-md-down"></span><?php echo $_SESSION["usu_nom"]." ".$_SESSION["usu_app"]?></span>
               <img src="http://via.placeholder.com/64x64" class="wd-32 rounded-circle" alt="">
               <span class="square-10 bg-success"></span>
             </a>
+
+            <input type="hidden" index="usu_idx" value="<?php echo $_SESSION["usu_id"] ?>"> <!-- usu_id del usuario -->
+
             <div class="dropdown-menu dropdown-menu-header wd-200">
               <ul class="list-unstyled user-profile-nav">
                 <li><a href="../UsuPerfil/"><i class="icon ion-ios-gear"></i> Perfil </a></li>
