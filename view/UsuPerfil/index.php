@@ -11,7 +11,7 @@
 
   <body>
 
-    <?php require_once("../html/MainManu.php"); ?>
+    <?php require_once("../html/MainMenu.php"); ?>
     <?php require_once("../html/MainHeader.php"); ?>
 
     <!--Main Página -->

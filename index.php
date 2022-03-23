@@ -54,7 +54,7 @@
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>
-                  <strong class="d-block d-sm-inline-block-force">¡Error!</strong> Credenciales incorrectas.
+                  <strong class="d-block d-sm-inline-block-force">¡Error!</strong> Datos incorrectos.
                 </div>
               <?php
               break;

@@ -7,12 +7,12 @@
 <html lang="es">
   <head>
     <?php require_once("../html/MainHead.php"); ?>
-    <title>Cursos</title>
+    <title>Empresa::Curso</title>
   </head>
 
   <body>
 
-    <?php require_once("../html/MainManu.php"); ?>
+    <?php require_once("../html/MainMenu.php"); ?>
     <?php require_once("../html/MainHeader.php"); ?>
 
     <div class="br-mainpanel">
@@ -39,7 +39,7 @@
                   <th class="wd-15p">Fecha Inicio</th>
                   <th class="wd-20p">Fecha Fin</th>
                   <th class="wd-15p">Instructor</th>
-                  <th class="wd-10p">Certificados</th>
+                  <th class="wd-10p"></th>
                 </tr>
               </thead>
               <tbody>

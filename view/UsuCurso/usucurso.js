@@ -1,4 +1,4 @@
-console.log("Ok");
+var usu_id = $('#usu_idx').val();
 
 $(document).ready(function(){
     $('#cursos_data').DataTable({
@@ -13,7 +13,7 @@ $(document).ready(function(){
         "ajax":{
             url:"../../controller/usuario.php?op=listar_cursos",
             type:"post",
-            data:{usu_id:1},
+            data:{usu_id:usu_id},
         },
         "bDestroy": true,
         "responsive": true,
