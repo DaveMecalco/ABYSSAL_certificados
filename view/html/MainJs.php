@@ -7,3 +7,11 @@
 <script src="../../public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
 <script src="../../public/lib/peity/jquery.peity.js"></script>
 <script src="../../public/js/bracket.js"></script>
+
+<script src="../../public/lib/datatables/jquery.dataTables.js"></script>
+<script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
+
+<script src="../../public/datatables/dataTables.buttons.min.js"></script>
+<script src="../../public/datatables/buttons.html5.min.js"></script>
+<script src="../../public/datatables/buttons.colVis.min.js"></script>
+<script src="../../public/datatables/jszip.min.js"></script>
