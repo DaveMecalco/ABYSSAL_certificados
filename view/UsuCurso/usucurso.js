@@ -18,7 +18,7 @@ $(document).ready(function(){
         "bDestroy": true,
         "responsive": true,
         "bInfo":true,
-        "iDisplayLength": 15,
+        "iDisplayLength": 10,
         "order": [[ 0, "desc" ]],
         "language": {
             "sProcessing":     "Procesando...",

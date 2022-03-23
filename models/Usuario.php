@@ -49,12 +49,12 @@
             tm_curso.cur_fechf,
             tm_usuario.usu_id,
             tm_usuario.usu_nom,
-            tm_usuario.usu_apep,
-            tm_usuario.usu_apem,
+            tm_usuario.usu_app,
+            tm_usuario.usu_apm,
             tm_instructor.inst_id,
             tm_instructor.inst_nom,
-            tm_instructor.inst_apep,
-            tm_instructor.inst_apem
+            tm_instructor.inst_app,
+            tm_instructor.inst_apm
             FROM td_curso_usuario INNER JOIN 
             tm_curso ON td_curso_usuario.cur_id = tm_curso.cur_id INNER JOIN
             tm_usuario ON td_curso_usuario.usu_id = tm_usuario.usu_id INNER JOIN
